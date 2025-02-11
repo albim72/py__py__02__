@@ -1,0 +1,26 @@
+data = {
+    "users": [
+        {
+            "id": 1,
+            "name": "Jan Kowalski",
+            "email": "jan.kowalski@example.com",
+            "orders": [
+                {"order_id": 101, "product_id": 2001, "quantity": 2},
+                {"order_id": 102, "product_id": 2003, "quantity": 1}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Anna Nowak",
+            "email": "anna.nowak@example.com",
+            "orders": [
+                {"order_id": 103, "product_id": 2002, "quantity": 5}
+            ]
+        }
+    ],
+    "products": [
+        {"product_id": 2001, "name": "Laptop", "price": 3500.0},
+        {"product_id": 2002, "name": "Smartphone", "price": 2500.0},
+        {"product_id": 2003, "name": "Tablet", "price": 1500.0}
+    ]
+}
